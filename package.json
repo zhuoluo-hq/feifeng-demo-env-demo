@@ -1,0 +1,15 @@
+{
+  "name": "env-demo",
+  "version": "0.0.1",
+  "description": "env-demo",
+  "main": "app.js",
+  "dependencies": {
+    "@bone/bone-web-ui": "^1.0.0",
+    "@bone/bone-web-ui-dpl": "^1.0.0",
+    "@bone/iot-gateway": "^2.0.1",
+    "@bone/web": "^0.1.0",
+    "@boneweb/iot-plugin-panel": "^1.0.28",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
+}

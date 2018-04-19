@@ -1,0 +1,52 @@
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    flex: 0 0 44px;
+    padding-left: 20px;
+    line-height: 44px;
+    background-color: #2C2F33;
+    color: #fff;
+    .logo {
+        margin-right: 8px;
+        font-size: 22px;
+    }
+    
+    .title {
+        font-size: 18px;
+    }
+}
+
+.body {
+    width: 100%;
+    flex: 1;
+    display: flex;
+
+    .side {
+        flex: 0 0 220px;
+        height: 100%;
+        background-color: #2C2F33;
+
+        
+    }
+
+    .content {
+        flex: 1;
+        height: 100%;
+    }
+}
+
+.nav {
+    background: #333745;
+}
+
+.navHeader {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 16px;
+    color: #C3C5C6;
+}
